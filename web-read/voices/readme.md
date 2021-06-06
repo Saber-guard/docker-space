@@ -1,1 +1,0 @@
-把这个目录软链到codingwork的public目录下
