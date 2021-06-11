@@ -1,7 +1,6 @@
 #!/bin/bash
 set -eo pipefail
 shopt -s nullglob
-cp /mnt/docker-space/conf/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
 
 # logging functions
 mysql_log() {
