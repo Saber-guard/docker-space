@@ -1,11 +1,11 @@
 [client]
 #password       = your_password
 port            = 13306
-socket          = /tmp/mysql.sock
+socket          = /tmp/mysql/mysql.sock
 
 [mysqld]
 port            = 13306
-socket          = /tmp/mysql.sock
+socket          = /tmp/mysql/mysql.sock
 datadir = /usr/local/mysql/var
 skip-external-locking
 key_buffer_size = 16M
